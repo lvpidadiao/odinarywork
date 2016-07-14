@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <sys/shm.h>
+#include <sys/stat.h>
+#include <unistd.h>
+
+#define SEGMENT_ID 100861
+
+int main()
+{
+    int segment_id = 0;
+
+    char *shared_memory = NULL;
+    struct shmid_ds shmbuffer;
+    int segment_size;
+    const int shared_segment_size = 0x6400;
+
+    shared_memory = (char *)shmat(SEGMENT_ID, 0, 0);
+
+    printf("ths string is %s", shared_memory);
+
+    shmdt(shared_memory);
+    return 0;
+}
