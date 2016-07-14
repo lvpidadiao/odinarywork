@@ -1,0 +1,15 @@
+;;; melpa emacs package install
+(require 'package)
+(add-to-list 'package-archives
+              '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+;;; melpa emacs package install end
+
+
+
+;;; enable flycheck
+ (add-hook 'after-init-hook #'global-flycheck-mode)
+;;; enable flycheck end
+
+(require 'swift-mode)
+

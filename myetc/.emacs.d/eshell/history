@@ -1,0 +1,81 @@
+ls
+cd ~
+ls
+ls a
+ls -a
+cd .emacs.d
+ls
+ls -a
+ls
+cd eshell/
+ls
+cd ..
+ls
+ls ../.emacs
+cd ..
+ls
+cd .emacs.d
+ls
+ls
+mkdir C
+cd C
+cd ..
+cd ~/.emacs.d/
+ls
+cd elpa/
+ls
+cd flycheck-20160622.952/
+ls
+grep ./ "flycheck-swift"
+cd ~/Project/
+mkdir Cpp
+cd Cpp
+ls
+ls
+g++ -o hello hello.cpp 
+./hello 
+g++ -o hello hello.cpp 
+./hello 
+g++ -o hello hello.cpp 
+./hello 
+g++ -o hello hello.cpp 
+./hello 
+cd /home/trevorlink/Project/linuxKernel/helloKernel
+ls
+cd /usr/
+ls
+cd src/
+ls
+cd linux-headers-3.13.0-86/
+ls
+cd usr/
+ls
+cd ..
+cd kernel/
+ls
+cd ..
+ls
+echo $KDIR
+echo $KDIR
+uname -a
+ls /usr/src/linux-headers-3.13.0-86-generic/
+ls
+make
+ls
+nm hello.o
+cd Project/linuxKernel/helloKernel/
+make
+insmod hello howmany=10 whom="mom"
+cat /sys/module/
+ls /sys/module/
+ls -l /sys/module/vt
+cat /sys/module/vt/uevent 
+sudo cat /sys/module/vt/uevent 
+cd ..
+ls
+cd scull/
+ls
+cd ~
+ls
+cd Documents/
+ls

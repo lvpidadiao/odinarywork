@@ -1,0 +1,41 @@
+;; Object C/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "C/"
+  :tables
+  (list
+    (semanticdb-table "tongweishu.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include nil nil [1 19])
+            ("print_arr" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("arr" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [36 45])
+                    ("arr_length" variable (:type "int") (reparse-symbol arg-sub-list) [46 61]))                  
+                :type "void")
+                nil [21 62])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [73 78]))                  
+                :type "int")
+                nil [64 447])
+            ("print_arr" function
+               (:arguments 
+                  ( ("arr" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [464 473])
+                    ("arr_length" variable (:type "int") (reparse-symbol arg-sub-list) [474 489]))                  
+                :type "void")
+                nil [449 636]))          
+      :file "tongweishu.c"
+      :pointmax 637
+      :fsize 636
+      :lastmodtime '(22393 15921 196088 999000)
+      :unmatched-syntax nil))
+  :file "!home!trevorlink!Project!C!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
